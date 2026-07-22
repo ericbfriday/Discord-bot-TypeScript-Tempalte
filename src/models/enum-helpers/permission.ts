@@ -30,6 +30,11 @@ export class Permission {
                 return Lang.getRef('permissions.BanMembers', langCode);
             },
         },
+        BypassSlowmode: {
+            displayName(langCode: Locale): string {
+                return Lang.getRef('permissions.BypassSlowmode', langCode);
+            },
+        },
         ChangeNickname: {
             displayName(langCode: Locale): string {
                 return Lang.getRef('permissions.ChangeNickname', langCode);
@@ -155,6 +160,11 @@ export class Permission {
                 return Lang.getRef('permissions.PrioritySpeaker', langCode);
             },
         },
+        PinMessages: {
+            displayName(langCode: Locale): string {
+                return Lang.getRef('permissions.PinMessages', langCode);
+            },
+        },
         ReadMessageHistory: {
             displayName(langCode: Locale): string {
                 return Lang.getRef('permissions.ReadMessageHistory', langCode);
@@ -188,6 +198,11 @@ export class Permission {
         SendVoiceMessages: {
             displayName(langCode: Locale): string {
                 return Lang.getRef('permissions.SendVoiceMessages', langCode);
+            },
+        },
+        SetVoiceChannelStatus: {
+            displayName(langCode: Locale): string {
+                return Lang.getRef('permissions.SetVoiceChannelStatus', langCode);
             },
         },
         Speak: {
